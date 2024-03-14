@@ -17,6 +17,6 @@
 # 5) Responda as perguntas:
  - ### Explique os problemas de termos valores nulos nos dados.
  - ### Explique o funcionamento do Right e do Left Join.
-     R: Right Join e Left Join são operações SQL utilizadas para combinar duas ou mais tabelas com base em uma coluna relacionada entre elas.
+     R: Right Join e Left Join são tipos operações SQL utilizadas para combinar duas ou mais tabelas com base em uma coluna relacionada entre elas. São essenciais para consultas que necessitam de dados de múltiplas tabelas, permitindo que os usuários vejam como estão relacionados.
  - ###  Explique o funcionamento do Full Outer Join e como pode ser feito no MySQL ou MariaDB que não tem mais o comando Full.
 
