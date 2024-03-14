@@ -24,3 +24,8 @@
      Right -> usada para recuperar todos os dados ou registros armazenados da tabela mais à direita e os registros correspondentes da tabela mais à esquerda. Em alguns casos, pode haver uma situação em que não há correspondências dos dados, então, nesse caso, o Right Join ainda incluirá as linhas da tabela da direita, mas exibirá os valores NULL para as colunas associadas à tabela da esquerda.
  - ###  Explique o funcionamento do Full Outer Join e como pode ser feito no MySQL ou MariaDB que não tem mais o comando Full.
 
+# 6)Faça uma consulta que selecione o nome, o salário dos funcionários e a descrição do departamento, mesmo que eles não tenham departamentos associados.
+        SELECT f.nome,f.salario,d.descricao FROM funcionario f
+        LEFT JOIN departamento d ON f.coddepto = d.codgerente
+# 7)Faça uma consulta que selecione o nome do departamento, o nome do gerente, e o número de funcionários de cada departamento. Deve aparecer os departamentos sem gerente e sem funcionários. Crie uma view para totalizar o número de funcionários em cada departamento e utilize-a na consulta.
+
