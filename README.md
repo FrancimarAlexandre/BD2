@@ -8,4 +8,4 @@ __Email__:francimaralexandredt@gmail.com
 
 repositório criado para as atividades da disciplina PROJETO E ADMINISTRAÇÃO DE BANCO DE DADOS (BD2)
 # EXERCÍCIOS
-   - <a href="https://github.com/FrancimarAlexandre/BD2/tree/main/tarefas/orm">Tarefa Individual - ODBC e ORM</a>
+   - <a href="https://github.com/FrancimarAlexandre/BD2/blob/main/tarefas/orm/tarefa-orm.md">Tarefa Individual - ODBC e ORM</a>
