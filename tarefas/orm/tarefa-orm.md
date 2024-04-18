@@ -39,3 +39,37 @@ __Tratamento de Exceções e Fechamento de Conexão__: É importante tratar exce
         print("An error occurred:", e)
     finally:
         cnxn.close()
+
+
+
+# Resumo ORM Na linguagem python e framework django
+
+__ORM__: (Object-Relational Mapper) é uma técnica usada para mapear tabelas de banco de dados em classes e objetos do Python, facilitando a interação entre o código Python e o banco de dados. Em vez de escrever instruções SQL manualmente, um ORM permite que você interaja com o banco de dados usando objetos e métodos
+
+
+__Django ORM__: O Django ORM é parte integrante do framework web Django. Ele oferece uma abstração de alto nível sobre um banco de dados relacional, permitindo que você trabalhe com objetos Python em vez de escrever SQL diretamente. É especialmente útil para desenvolvimento rápido de aplicativos web, pois permite que você se concentre no código Python sem alternar para SQL3.
+
+## __Configurando um projeto base com django ORM__
+    
+__Crie um ambiente virtual__: Usando o módulo interno `venv`
+        
+        python3 -m venv venv
+
+__ative o ambiente virtual__: Linux
+
+    source venv/bin/activate
+
+__ative o ambiente virtual__: windowns
+
+    venv\scripts\activate
+
+__instale o pacote__: `django django-extensions`, O pacote fornece algumas extensões personalizadas para a estrutura Django.
+
+    pip install django django-extensions
+
+__registre no projeto django__:
+
+    INSTALLED_APPS = [
+    # ...
+    'django_extensions',
+]
