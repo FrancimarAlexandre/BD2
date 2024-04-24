@@ -7,8 +7,19 @@ Para trabalhar com ODBC em python podemos utilizar a biblioteca `pyodbc` que é 
 
 # Resumo ORM Na linguagem python e framework django
 
-__ORM__: (Object-Relational Mapper) é uma técnica usada para mapear tabelas de banco de dados em classes e objetos do Python, facilitando a interação entre o código Python e o banco de dados. Em vez de escrever instruções SQL manualmente, um ORM permite que você interaja com o banco de dados usando objetos e métodos
+__ORM__:Em Python, uma estrutura ORM (Mapeamento Objeto-Relacional) é usada para abstrair as interações do banco de dados, permitindo que os desenvolvedores interajam com um banco de dados usando objetos Python em vez de consultas SQL. Isso torna o código mais fácil de ler, escrever e manter. Abaixo estão algumas das estruturas ORM mais populares disponíveis para Python, juntamente com seus recursos e casos de uso típicos:
 
+## SQLAlchemy
 
-__Django ORM__: O Django ORM é parte integrante do framework web Django. Ele oferece uma abstração de alto nível sobre um banco de dados relacional, permitindo que você trabalhe com objetos Python em vez de escrever SQL diretamente. É especialmente útil para desenvolvimento rápido de aplicativos web, pois permite que você se concentre no código Python sem alternar para SQL3.
+SQLAlchemy é uma das estruturas ORM mais poderosas e flexíveis disponíveis em Python. Ele fornece um conjunto completo de padrões de persistência de nível empresarial bem conhecidos e foi projetado para acesso eficiente e de alto desempenho ao banco de dados.
 
+    Características:
+        Padrão de mapeador de dados em que as classes podem ser mapeadas para o banco de dados de várias maneiras abertas.
+        Suporta uma ampla variedade de back-ends de banco de dados.
+        Linguagem de expressão SQL detalhada.
+        Detecção automática de alterações e sincronização de banco de dados usando Unidade de Trabalho.
+    Caso de uso típico: é adequado para aplicativos que exigem consultas complexas, modelos de dados e alta flexibilidade na interação com o banco de dados. É amplamente utilizado em aplicações de pequena e grande escala.
+
+# SCRIPTS
+
+<a href="https://github.com/FrancimarAlexandre/BD2/blob/main/tarefas/orm/scripts/odbc.py">ODBC</a>
