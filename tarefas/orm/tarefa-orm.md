@@ -23,4 +23,5 @@ SQLAlchemy é uma das estruturas ORM mais poderosas e flexíveis disponíveis em
 # SCRIPTS
 
 <a href="https://github.com/FrancimarAlexandre/BD2/blob/main/tarefas/orm/scripts/odbc.py">ODBC</a>
+
 <a href="https://github.com/FrancimarAlexandre/BD2/blob/main/tarefas/orm/scripts/orm.py">ORM</a>
